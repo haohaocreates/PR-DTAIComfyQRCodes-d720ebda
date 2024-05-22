@@ -1,0 +1,15 @@
+[project]
+name = "dtaicomfyqrcodes"
+description = "This extension introduces QR code nodes for the Comfy UI stable diffusion client. NOTE: ComfyUI qrcode extension required."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["qrcode"]
+
+[project.urls]
+Repository = "https://github.com/yolanother/DTAIComfyQRCodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DTAIComfyQRCodes"
+Icon = ""
